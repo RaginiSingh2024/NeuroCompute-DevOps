@@ -35,36 +35,157 @@ The platform enables secure user authentication, cloud resource management, job 
 
 # ✨ Features
 
-### 👤 User Management
+---
+
+## 👤 User Management
 
 - User Registration
 - User Login
-- Role-Based Access
 - JWT Authentication
 - Secure Password Storage
-
-### 💼 Job Portal
-
-- Browse Jobs
-- Search Jobs
-- Apply for Jobs
-- Application Tracking
-
-### 📊 Dashboard
-
-- User Dashboard
-- Resource Monitoring
-- Analytics Widgets
-- Activity Overview
-
-### 🎨 UI Features
-
-- Responsive Design
-- Dark Mode
-- Light Mode
-- Modern Enterprise UI
+- Session Management
+- Role-Based Access Control
 
 ---
+
+## 💼 Job Portal
+
+- Browse Available Jobs
+- Search Jobs
+- Apply for Jobs
+- Track Applications
+- Job Recommendations
+- Job Management System
+
+---
+
+## 📊 Dashboard
+
+- User Dashboard
+- Application Statistics
+- Activity Tracking
+- Resource Monitoring
+- Performance Insights
+- Real-Time Updates
+
+---
+
+## 🎨 User Experience
+
+- Responsive Design
+- Modern UI/UX
+- Dark Theme Interface
+- Smooth Navigation
+- Interactive Components
+- Mobile Friendly Layout
+
+---
+
+## 🐳 Docker Containerization
+
+- Frontend Container
+- Backend Container
+- Docker Compose Integration
+- Multi-Container Deployment
+- Environment Isolation
+- Consistent Runtime Environment
+
+---
+
+## 🔄 Jenkins CI/CD Pipeline
+
+- Automated Build Process
+- Dependency Installation
+- Continuous Integration
+- Automated Deployment Workflow
+- Docker Image Build
+- Pipeline Automation
+
+---
+
+## ☸️ Kubernetes Orchestration
+
+- Frontend Deployment
+- Backend Deployment
+- Service Configuration
+- Ingress Routing
+- Namespace Management
+- ConfigMap & Secret Management
+
+---
+
+## 🌍 Infrastructure as Code
+
+- Terraform Configuration
+- Automated Resource Provisioning
+- Infrastructure Management
+- Cloud Deployment Automation
+- Reusable Infrastructure Templates
+
+---
+
+## 📈 Monitoring & Observability
+
+### Prometheus
+
+- Metrics Collection
+- Performance Monitoring
+- Alert Rules
+- System Health Tracking
+
+### Grafana
+
+- Interactive Dashboards
+- Visualization Reports
+- Monitoring Analytics
+- Resource Usage Insights
+
+---
+
+## 📋 Centralized Logging
+
+### ELK Stack
+
+#### Elasticsearch
+
+- Log Storage
+- Data Indexing
+
+#### Logstash
+
+- Log Processing
+- Data Transformation
+
+#### Kibana
+
+- Log Visualization
+- Search & Analysis
+
+---
+
+## 🔐 Security & Secrets Management
+
+### HashiCorp Vault
+
+- Secret Storage
+- Credential Management
+- Secure Configuration
+- Access Control Policies
+
+---
+
+## 🚀 DevOps Practices
+
+- Containerization
+- CI/CD Automation
+- Infrastructure Automation
+- Monitoring & Alerting
+- Centralized Logging
+- Secret Management
+- Cloud-Native Architecture
+
+---
+
 
 # 🏗️ System Architecture
 
@@ -88,36 +209,49 @@ Kubernetes Cluster
        │
        ▼
 Monitoring + Logging
+```
 
-🛠️ Tech Stack
-Frontend
-React.js
-Vite
-React Router
-Axios
-Framer Motion
-Backend
-Node.js
-Express.js
-JWT Authentication
-Database
-MongoDB Atlas
-DevOps
-Docker
-Jenkins
-Kubernetes
-Terraform
-Monitoring
-Prometheus
-Grafana
-Logging
-Elasticsearch
-Logstash
-Kibana (ELK)
-Security
-HashiCorp Vault
+---
+## 🛠️ Tech Stack
 
-📂 Project Structure
+### Frontend
+- React.js
+- Vite
+- React Router
+- Axios
+- Framer Motion
+
+### Backend
+- Node.js
+- Express.js
+- JWT Authentication
+
+### Database
+- MongoDB Atlas
+
+### DevOps
+- Docker
+- Jenkins
+- Kubernetes
+- Terraform
+
+### Monitoring
+- Prometheus
+- Grafana
+
+### Logging
+- Elasticsearch
+- Logstash
+- Kibana (ELK)
+
+### Security
+- HashiCorp Vault
+
+---
+
+## 📂 Project Structure
+
+```text
 NeuroCompute_Devops
 │
 ├── backend
@@ -130,143 +264,183 @@ NeuroCompute_Devops
 ├── elk
 ├── vault
 ├── diagrams
-└── README_DEVOPS.md
+├── screenshots
+└── README.md
+```
 
+---
 
-🐳 Docker
+## 🐳 Docker
 
-Containerization of frontend and backend services using Docker.
+Containerization of frontend and backend services.
+
+### Files
+
+- Dockerfile.frontend
+- Dockerfile.backend
+- docker-compose.yml
+
+---
+
+## 🔄 Jenkins CI/CD
+
+### Pipeline Stages
+
+1. Checkout Source Code
+2. Install Dependencies
+3. Build Application
+4. Docker Image Build
+5. Deployment
+
+---
+
+## ☸️ Kubernetes
+
+### Deployment Files
+
+- frontend-deployment.yaml
+- backend-deployment.yaml
+- frontend-service.yaml
+- backend-service.yaml
+- ingress.yaml
+- namespace.yaml
+- configmap.yaml
+- secret.yaml
+
+---
+
+## 🌍 Terraform
+
+### Infrastructure as Code
+
+- provider.tf
+- main.tf
+- variables.tf
+- outputs.tf
+
+---
+
+## 📈 Monitoring
+
+### Prometheus
+
+- Metrics Collection
+- Alert Rules
+- Application Monitoring
+
+### Grafana
+
+- Dashboard Visualization
+- Performance Monitoring
+
+---
+
+## 📋 ELK Stack
+
+### Elasticsearch
+
+- Log Storage
+
+### Logstash
+
+- Log Processing
+
+### Kibana
+
+- Log Visualization
+
+---
+
+## 🔐 Vault
+
+### Secret Management
 
 Files:
 
-Dockerfile.frontend
-Dockerfile.backend
-docker-compose.yml
-🔄 Jenkins CI/CD
+- vault-config.hcl
+- vault-policy.hcl
+- secrets-example.json
 
-Pipeline Stages:
+---
 
-Checkout
-Install Dependencies
-Build
-Docker Build
-Deployment
-☸️ Kubernetes
+## 📷 Screenshots
 
-Deployment Files:
+All project screenshots are available inside the **screenshots/** directory.
 
-frontend-deployment.yaml
-backend-deployment.yaml
-frontend-service.yaml
-backend-service.yaml
-ingress.yaml
-namespace.yaml
-configmap.yaml
-secret.yaml
-🌍 Terraform
+### Included Screenshots
 
-Infrastructure as Code:
+- Login Page
+- Registration Page
+- Dashboard
+- Job Search Page
+- MongoDB Atlas Setup
+- Docker Setup
+- Kubernetes Setup
+- Monitoring Dashboard
 
-provider.tf
-main.tf
-variables.tf
-outputs.tf
-📈 Monitoring
-Prometheus
-Metrics Collection
-Alert Rules
-Grafana
-Dashboards
-Visualization
-📋 ELK Stack
-Elasticsearch
+---
+## 🚀 Installation
 
-Data Storage
+### Clone Repository
 
-Logstash
+```bash
+git clone https://github.com/RaginiSingh2024/NeuroCompute-DevOps.git
+```
 
-Log Processing
+### Frontend Setup
 
-Kibana
-
-Log Visualization
-
-🔐 Vault
-
-Secure Secret Management
-
-Files:
-
-vault-config.hcl
-vault-policy.hcl
-secrets-example.json
-📷 Screenshots
-Login Page
-
-(Add Screenshot)
-
-Register Page
-
-(Add Screenshot)
-
-Dashboard
-
-(Add Screenshot)
-
-Jobs Page
-
-(Add Screenshot)
-
-MongoDB Atlas
-
-(Add Screenshot)
-
-Docker
-
-(Add Screenshot)
-
-Kubernetes
-
-(Add Screenshot)
-
-Monitoring
-
-(Add Screenshot)
-
-🚀 Installation
-Clone Repository
-git clone YOUR_REPO_LINK
-Frontend
+```bash
 cd frontend
 npm install
 npm run dev
-Backend
+```
+
+### Backend Setup
+
+```bash
 cd backend
 npm install
 npm start
-📚 Learning Outcomes
-Full Stack Development
-Cloud Computing
-DevOps Practices
-CI/CD Pipelines
-Containerization
-Infrastructure Automation
-Monitoring & Logging
-Secret Management
-👩‍💻 Author
+```
+
+### Docker Setup
+
+```bash
+docker compose -f docker/docker-compose.yml up --build
+```
+
+---
+
+## 📚 Learning Outcomes
+
+- Full Stack Development
+- Cloud Computing
+- DevOps Engineering
+- Docker Containerization
+- CI/CD Automation
+- Kubernetes Orchestration
+- Infrastructure Automation
+- Monitoring & Logging
+- Secret Management
+
+---
+
+
+# 👩‍💻 Author
 Ragini Singh
 
 Cloud Computing & DevOps Project
+
+Problem Statement No : 118
+
+Problem Statement Title : NeuroCompute – Enterprise Cloud Computing Platform
 
 2026
 
 
 ---
 
-### IMPORTANT
 
-README me ye 2 buttons top pe rakhna:
+⭐ If you found this project useful, please consider giving it a star.
 
-```md
-| 🌐 Live Application | [View Demo](YOUR_DEPLOY_LINK) |
-| 📄 Documentation | [View Documentation](YOUR_GOOGLE_DOC_LINK) |
+
