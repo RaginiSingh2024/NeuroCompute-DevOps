@@ -1,0 +1,31 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: neuro-ingress
+  namespace: neurocompute
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+spec:
+  tls:
+    - hosts:
+        - neurocompute.example.com
+      secretName: neuro-tls
+  rules:
+    - host: neurocompute.example.com
+      http:
+        paths:
+          - path: /(.*)
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: neuro-frontend
+                port:
+                  number: 80
+          - path: /api(.*)
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: neuro-backend
+                port:
+                  number: 5000

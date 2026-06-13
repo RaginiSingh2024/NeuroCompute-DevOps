@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: neuro-backend
+  namespace: neurocompute
+spec:
+  selector:
+    app: neuro-backend
+  ports:
+    - protocol: TCP
+      port: 5000
+      targetPort: 5000
+  type: ClusterIP

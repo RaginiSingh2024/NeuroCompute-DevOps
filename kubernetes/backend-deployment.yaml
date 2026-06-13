@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: neuro-backend
+  namespace: neurocompute
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: neuro-backend
+  template:
+    metadata:
+      labels:
+        app: neuro-backend
+    spec:
+      containers:
+        - name: backend
+          image: neurocompute/backend:latest
+          ports:
+            - containerPort: 5000
+          env:
+            - name: MONGO_URI
+              valueFrom:
+                secretKeyRef:
+                  name: neuro-secrets
+                  key: mongo_uri
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: neuro-secrets
+                  key: jwt_secret
+          readinessProbe:
+            httpGet:
+              path: /api
+              port: 5000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /api
+              port: 5000
+            initialDelaySeconds: 30
+            periodSeconds: 20

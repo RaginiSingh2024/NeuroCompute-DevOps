@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --text: #cbd5e1;
+  --text-h: #f8fafc;
+  --bg: #030014;
+  --border: rgba(255, 255, 255, 0.07);
+  --code-bg: #0f172a;
+  --accent: #8b5cf6;
+  --accent-blue: #3b82f6;
+  --accent-glow: rgba(139, 92, 246, 0.25);
+  --accent-blue-glow: rgba(59, 130, 246, 0.25);
+  --card-bg: rgba(10, 10, 24, 0.55);
+  --input-bg: rgba(15, 23, 42, 0.6);
+  --success: #10b981;
+  --error: #ef4444;
+  --shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  
+  /* Additional theme-specific variables */
+  --nav-bg: rgba(3, 0, 20, 0.65);
+  --input-bg-focus: rgba(15, 23, 42, 0.85);
+  --success-text: #34d399;
+  --error-text: #f87171;
+  --brand-gradient: linear-gradient(135deg, #ffffff 0%, #8b5cf6 100%);
+  --text-gradient-val: linear-gradient(135deg, #ffffff 0%, #a78bfa 50%, #60a5fa 100%);
+  --nav-link-color: #94a3b8;
+  --card-hover-bg: rgba(10, 10, 24, 0.55);
+  --sub-text: #94a3b8;
+  --border-light: rgba(255, 255, 255, 0.06);
+  --body-bg: linear-gradient(180deg, var(--bg), #071018);
+
+  --sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --heading: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 16px/150% var(--sans);
+  letter-spacing: 0.1px;
+  color-scheme: dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root[data-theme='light'] {
+  --text: #475569;
+  --text-h: #0f172a;
+  --bg: #ffffff;
+  --border: #e2e8f0;
+  --code-bg: #f1f5f9;
+  --accent: #7c3aed;
+  --accent-blue: #2563eb;
+  --accent-glow: rgba(124, 58, 237, 0.15);
+  --accent-blue-glow: rgba(37, 99, 235, 0.15);
+  --card-bg: #ffffff;
+  --input-bg: #f8fafc;
+  --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.03);
+  
+  --nav-bg: rgba(255, 255, 255, 0.85);
+  --input-bg-focus: #ffffff;
+  --success-text: #047857;
+  --error-text: #b91c1c;
+  --brand-gradient: linear-gradient(135deg, #0f172a 0%, #7c3aed 100%);
+  --text-gradient-val: linear-gradient(135deg, #0f172a 0%, #7c3aed 50%, #2563eb 100%);
+  --nav-link-color: #475569;
+  --card-hover-bg: #ffffff;
+  --sub-text: #475569;
+  --border-light: #f1f5f9;
+  --body-bg: #ffffff;
+  color-scheme: light;
+}
+
+:root[data-theme='light'] body {
+  background-color: #ffffff;
+  background-image: none !important;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.12) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(59, 130, 246, 0.12) 0px, transparent 50%);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--heading);
+  font-weight: 700;
+  color: var(--text-h);
+  letter-spacing: -0.025em;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.15;
+  margin: 0 0 10px 0;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.25;
+  margin: 0 0 15px 0;
+}
+
+p {
+  margin: 0;
+  color: var(--text);
+}
+
+code {
+  font-family: var(--mono);
+  font-size: 14px;
+  padding: 3px 6px;
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: #f8fafc;
+}

@@ -1,0 +1,18 @@
+groups:
+- name: neuro-alerts
+  rules:
+  - alert: HighCPU
+    expr: node_cpu_seconds_total > 0.9
+    for: 2m
+    labels:
+      severity: critical
+    annotations:
+      summary: "High CPU usage"
+
+  - alert: HighMemory
+    expr: node_memory_Active_bytes / node_memory_MemTotal_bytes > 0.9
+    for: 2m
+    labels:
+      severity: warning
+    annotations:
+      summary: "High memory usage"

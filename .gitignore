@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build files
+dist/
+frontend/dist/
+backend/dist/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs
+*.log
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+
+# Coverage
+coverage/
+
+# NPM
+npm-debug.log*

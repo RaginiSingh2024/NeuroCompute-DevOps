@@ -1,0 +1,16 @@
+pipeline {
+  agent any
+  environment {
+    REGISTRY = ''
+    IMAGE_TAG = "neurocompute:${env.BUILD_NUMBER}"
+  }
+  stages {
+    stage('Checkout') { steps { checkout scm } }
+    stage('Install') { steps { sh 'cd backend && npm ci && cd ../frontend && npm ci' } }
+    stage('Test') { steps { echo 'No tests defined - add your test commands' } }
+    stage('Build') { steps { sh 'cd frontend && npm run build' } }
+    stage('Docker Build') { steps { echo 'Build Docker images - configure registry' } }
+    stage('Deploy') { steps { echo 'Deploy stage - implement deployment steps' } }
+  }
+  post { always { echo 'Pipeline finished' } }
+}

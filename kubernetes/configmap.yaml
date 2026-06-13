@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: neuro-config
+  namespace: neurocompute
+data:
+  APP_NAME: "NeuroCompute"
+  ENV: "production"
+  FRONTEND_URL: "https://neurocompute.example.com"
+  API_BASE: "/api"
