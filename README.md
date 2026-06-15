@@ -100,7 +100,6 @@ The platform enables secure user authentication, cloud resource management, job 
 
 ![Tools Installed](./screenshots/all-tool-install.png)
 
-
 # ✨ Features
 
 ---
