@@ -21,7 +21,7 @@
 | Resource | Link |
 |-----------|--------|
 | 🌐 Live Application | [View Demo](PASTE_YOUR_DEPLOYED_LINK_HERE) |
-| 📄 Documentation | [View Documentation](PASTE_GOOGLE_DOC_OR_PDF_LINK_HERE) |
+| 📄 Documentation | [View Documentation](https://docs.google.com/document/d/1tR_-45rCkCp58_c0MmpDdHVJc_DYIuPgB09cC_EmoDs/edit?usp=sharing) |
 
 ---
 
