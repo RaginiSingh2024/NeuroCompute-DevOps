@@ -20,7 +20,7 @@
 
 | Resource | Link |
 |-----------|--------|
-| 🌐 Live Application | 🚀 Live Demo: Available on request / Local environment demonstration) |
+| 🌐 Live Application | 🚀 Live Demo: Available on request / Local environment demonstration |
 | 📄 Documentation | [View Documentation](https://docs.google.com/document/d/1tR_-45rCkCp58_c0MmpDdHVJc_DYIuPgB09cC_EmoDs/edit?usp=sharing) |
 
 ---
