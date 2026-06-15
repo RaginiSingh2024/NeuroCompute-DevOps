@@ -32,6 +32,74 @@ NeuroCompute is an Enterprise Cloud Computing Platform designed to demonstrate a
 The platform enables secure user authentication, cloud resource management, job application workflows, monitoring, logging, infrastructure automation, and containerized deployment using modern DevOps practices.
 
 ---
+### 🏗️ System Architecture
+
+<p align="center">
+  <img src="./Devops_Architecture.drawio.png" alt="Architecture Diagram" width="100%">
+</p>
+
+---
+
+# 📷 Application Screenshots
+
+## 🔐 Sign In Page
+
+![Sign In](./screenshots/sign-in.png)
+
+---
+
+## 👤 Account Registration
+
+![Account Create](./screenshots/account-create.png)
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+---
+
+## 📈 Dashboard Analytics
+
+![Dashboard Analytics](./screenshots/dashboard2.png)
+
+---
+
+## 💼 Jobs Page
+
+![Jobs](./screenshots/job.png)
+
+---
+
+## 💡 Jobs Page (Light Mode)
+
+![Jobs Light](./screenshots/job-lightmode.png)
+
+---
+
+## 🌞 Sign In (Light Mode)
+
+![Sign In Light](./screenshots/sign-in-lightmode.png)
+
+---
+
+## 🐳 Docker Installation
+
+![Docker Install](./screenshots/docker-install.png)
+
+---
+
+## ⚙️ Docker Configuration Files
+
+![Docker Config](./screenshots/Docker%20Config%20Files%20Present.png)
+
+---
+
+## 🛠️ Development Environment
+
+![Tools Installed](./screenshots/all-tool-install.png)
+
 
 # ✨ Features
 
