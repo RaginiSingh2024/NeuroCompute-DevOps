@@ -30,4 +30,5 @@ logs
 coverage/
 
 # NPM
-npm-debug.log*
+npm-debug.log*.terraform/
+terraform/.terraform/
