@@ -42,47 +42,125 @@ The platform enables secure user authentication, cloud resource management, job 
 
 # 📷 Application Screenshots
 
-## 🔐 Sign In Page
+## 🔐 Login Page (Dark Mode)
 
-![Sign In](./screenshots/sign-in-lightmode.png)
+<p align="center">
+<img src="./screenshots/login-page.png" width="900"/>
+</p>
 
 ---
 
-## 👤 Account Registration
+## ☀️ Login Page (Light Mode)
 
-![Account Create](./screenshots/account-create.png)
+<p align="center">
+<img src="./screenshots/sign-in-lightmode.png" width="900"/>
+</p>
+
+---
+
+## 👤 Create Account
+
+<p align="center">
+<img src="./screenshots/account-create.png" width="900"/>
+</p>
 
 ---
 
 ## 📊 Dashboard
 
-![Dashboard](./screenshots/dashboard.png)
+<p align="center">
+<img src="./screenshots/dashboard.png" width="900"/>
+</p>
 
 ---
 
-## 📈 Dashboard Analytics
+## 📈 Analytics Dashboard
 
-![Dashboard Analytics](./screenshots/dashboard2.png)
+<p align="center">
+<img src="./screenshots/dashboard2.png" width="900"/>
+</p>
 
 ---
 
 ## 💼 Jobs Page
 
-![Jobs](./screenshots/job.png)
+<p align="center">
+<img src="./screenshots/jobs-page.png" width="900"/>
+</p>
 
 ---
 
-## 💡 Jobs Page (Light Mode)
+## 🐳 Docker Containers
 
-![Jobs Light](./screenshots/job-lightmode.png)
+<p align="center">
+<img src="./screenshots/docker-containers.png" width="900"/>
+</p>
+
+---
+
+## 🚀 Jenkins Pipeline
+
+<p align="center">
+<img src="./screenshots/jenkins-pipeline.png" width="900"/>
+</p>
 
 ---
 
-## 🌞 Sign In (Light Mode)
+## 📈 Prometheus
 
-![Sign In Light](./screenshots/sign-in-lightmode.png)
+<p align="center">
+<img src="./screenshots/12_Prometheus_UI.png" width="900"/>
+</p>
 
 ---
+
+## 📊 Grafana Login
+
+<p align="center">
+<img src="./screenshots/13_Grafana_Login.png" width="900"/>
+</p>
+
+---
+
+## 📊 Grafana Home
+
+<p align="center">
+<img src="./screenshots/13_Grafana_Home_Dashboard.png" width="900"/>
+</p>
+
+---
+
+## 📊 Grafana Dashboard
+
+<p align="center">
+<img src="./screenshots/16_Grafana_Dashboard.png" width="900"/>
+</p>
+
+---
+
+## ☸ Kubernetes Deployment
+
+<p align="center">
+<img src="./screenshots/Kubernetes Deployment Verification.png" width="900"/>
+</p>
+
+---
+
+## 🌍 Terraform Validation
+
+<p align="center">
+<img src="./screenshots/terraform-validate-success.png" width="900"/>
+</p>
+
+---
+
+## 🔐 Vault
+
+<p align="center">
+<img src="./screenshots/vault-status.png" width="900"/>
+</p>
+---
+
 
 ## 🐳 Docker Installation
 
