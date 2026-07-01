@@ -35,7 +35,7 @@ The platform enables secure user authentication, cloud resource management, job 
 ### 🏗️ System Architecture
 
 <p align="center">
-  <img src="./Devops_Architecture.drawio.png" alt="Architecture Diagram" width="100%">
+  <img src="./architecture-diagram.png" alt="Architecture Diagram" width="100%">
 </p>
 
 ---
@@ -44,7 +44,7 @@ The platform enables secure user authentication, cloud resource management, job 
 
 ## 🔐 Sign In Page
 
-![Sign In](./screenshots/sign-in.png)
+![Sign In](./screenshots/sign-in-lightmode.png)
 
 ---
 
