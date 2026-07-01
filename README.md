@@ -178,6 +178,12 @@ The platform enables secure user authentication, cloud resource management, job 
 
 ![Tools Installed](./screenshots/all-tool-install.png)
 
+## 🚀 Jenkins Pipeline Configuration
+
+<p align="center">
+  <img src="./screenshots/21_Jenkins_Pipeline_Config.png" alt="Jenkins Pipeline Configuration" width="100%">
+</p>
+
 # ✨ Features
 
 ---
